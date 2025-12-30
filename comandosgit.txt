@@ -2,3 +2,4 @@ git init -> inicializa repositorio local
 git add -> adiciona arquivos para o commit
 git status -> verifica status do repositorio
 git commit -> salva no repositorio local os arquivos que estÃo no stage, criando um commit com mensagem e hash
+git log -> mostra historico dos commits
