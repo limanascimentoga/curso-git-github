@@ -3,3 +3,16 @@ git add -> adiciona arquivos para o commit
 git status -> verifica status do repositorio
 git commit -> salva no repositorio local os arquivos que estÃo no stage, criando um commit com mensagem e hash
 git log -> mostra historico dos commits
+git diff <nome do arquivo> -> ver o que foi removido e o que foi adicionado em um arquivo
+git reset <nome do arquivo> -> tira do estado staged (caso tenha feito o add sem querer do arquivo)
+
+## FLUXO DE TRABALHO
+1. criar pasta do projeto
+2. iniciar o git dentro da pasta criada (git init .)
+3. edita ou cria arquivos
+4. git status
+5. git add <nome do arquivo>
+6. git status
+7. git commit -m "mensagem"
+8. git status
+9. volta para o passo 3
