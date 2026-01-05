@@ -1,1 +1,3 @@
 esse arquivo contem comandos secundarios de git
+
+# comandos mais genericos
