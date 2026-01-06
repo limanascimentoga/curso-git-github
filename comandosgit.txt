@@ -1,10 +1,29 @@
 git init -> inicializa repositorio local
+
 git add -> adiciona arquivos para o commit
+
 git status -> verifica status do repositorio
+
 git commit -> salva no repositorio local os arquivos que estÃo no stage, criando um commit com mensagem e hash
+
 git log -> mostra historico dos commits
+
 git diff <nome do arquivo> -> ver o que foi removido e o que foi adicionado em um arquivo
+
 git reset <nome do arquivo> -> tira do estado staged (caso tenha feito o add sem querer do arquivo)
+
+git checkout -b <nome da branch> -> cria uma nova branch (que são ramificações a partir do MAIN por exemplo)
+
+git branch -D <nome da branch> -> deleta uma branch
+
+git checkout <nome da branch> -> alterna pra dentro de uma branch
+
+git branch -> mostra as branches
+
+git merge <nome da branch> -> faz a mescla de uma branch com a branch atual
+
+BRANCHES -> são ramificações criadas a partir de um ramo A, que posso modificar arquivos sem me preocupar com o ramo A, depois voltamos para ramo A para fazer a mesclagem de todos os ramos já criados, mesclar tudo dentro do ramo A, sem se preocupar em perder dados importantes do ramo A, o ramo A seria o ramo "principal"
+
 
 ## FLUXO DE TRABALHO
 1. criar pasta do projeto
