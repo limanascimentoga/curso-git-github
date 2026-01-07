@@ -32,3 +32,5 @@ Além disso, vou trabalhar com GitFlow ao final do curso e Visual Studio Code.
 11. excluir <nova_branch> origin
 12. git checkout main
 13. git branch -D <nova_branch>
+
+![alt text](image.png)
