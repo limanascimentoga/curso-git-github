@@ -34,3 +34,4 @@ Além disso, vou trabalhar com GitFlow ao final do curso e Visual Studio Code.
 13. git branch -D <nova_branch>
 
 ![alt text](image.png)
+![alt text](image-1.png)
